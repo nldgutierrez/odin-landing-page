@@ -1,0 +1,50 @@
+/* border for reference to html elements */
+* {
+    border: 1px solid;
+}
+
+/* colors and font styles */
+
+header, .hero {
+    background-color: #1F2937;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.hero p, header menu {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button {
+    color: #3882F6;
+}
+
+.action .content {
+    background-color: #3882F6;
+}
+
+.second h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: light italic;
+    color: #1F2937;
+}
