@@ -1,6 +1,7 @@
-/* border for reference to html elements */
-* {
-    border: 1px solid;
+/* remove body margin */
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
 }
 
 /* colors and font styles */
@@ -11,7 +12,7 @@ header, .hero, footer {
 
 .hero h1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
@@ -25,17 +26,13 @@ header, .hero, footer {
     color: #F9FAF8;
 }
 
-/* button {
-    color: #3882F6;
-} */
-
 .action .content {
     background-color: #3882F6;
 }
 
 .second h2 {
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: 900;
     color: #1F2937;
 }
 
@@ -45,7 +42,8 @@ header, .hero, footer {
 
 blockquote {
     font-size: 36px;
-    font-weight: light italic;
+    font-weight: 300;
+    font-style: italic;
     color: #1F2937;
 }
 
@@ -89,8 +87,7 @@ menu {
     background-color: #3882F6;
     border-radius: 8px;
     color: #F9FAF8;
-    font-weight: bold;
-    /* border: 0; */
+    font-weight: 700;
 }
 
 .image {
@@ -200,7 +197,7 @@ figcaption {
     background-color: #3882F6;
     border-radius: 8px;
     color: #F9FAF8;
-    font-weight: bold;
+    font-weight: 700;
     border: 2px solid #F9FAF8;
 }
 
