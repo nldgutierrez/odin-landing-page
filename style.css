@@ -166,3 +166,40 @@ figcaption {
     align-self: flex-end;
 }
 
+/* action */
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.action .content {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px 0px;
+    border-radius: 8px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.text p {
+    margin: 0;
+}
+
+.action button {
+    padding: 8px 24px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: 2px solid #F9FAF8;
+}
